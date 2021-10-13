@@ -1,0 +1,259 @@
+#body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: 100%}
+
+#barranav {
+	background-color: black;
+	position: fixed;
+	left:0;
+	top:0vw;
+	width: 100%;
+	height: 6vw;
+	z-index: 300;
+}
+
+#link {
+	position: absolute;
+	right: 10vw;
+	top:1.9vw;
+	z-index: 301;
+	width: 40%;
+	padding:0;
+}
+
+#link a{
+		text-decoration: none ;
+		font-size:2vw;
+		color:white;
+	}
+#link a:hover{
+    color: greenyellow;
+}
+
+#isola2 {
+	position: absolute;
+	top:-1.4vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 11%;
+}
+
+#fise {
+	position: absolute;
+	width: 8vw;
+	top:0vw;
+	left: 3vw;
+	height: 6vw;
+	z-index: 300;
+}
+
+#ferro {
+	position: absolute;
+	left:3vw;
+	
+	width: 8vw;
+	height: 8vw;
+}
+
+#centro_1 {
+	background-color: #bfbfbf;
+	/*background: url(./immagini/carta.png);*/
+	position: absolute;
+	top:5.8vw;
+	height: 170vw;
+	left:10vw;
+	right:10vw;
+	border: none;
+
+}
+
+
+
+#fondo {
+	position: absolute;
+	background-color:#802b00;
+	top:172vw;
+	height: 7.1vw;
+	width: 100%;
+	z-index: 100;
+	left: 0vw;
+}
+
+#isola_footer {
+	position: absolute;
+	top:-0.9vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 2vw;
+}
+
+#copyright {
+position: absolute;
+top: 1.9vw;
+font-size: 1.2vw;
+color: white;
+left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titolo_strutture {
+	position: relative;
+	text-align: center;
+	top: 0vw;
+	font-size: 3vw;
+    font-family: Comic Sans MS;
+}
+
+.img {
+	height: 20vw;
+	width: 30vw;
+}
+
+.titolo_campo{
+	position: relative;
+    font-size: 3vw;
+    text-align: center;
+    font-family: Comic Sans MS;
+    color:#00802b;
+
+}
+
+.desc_campo{
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+#s1{
+	position: relative;
+	height: 20vw;
+}
+
+#foto_A{
+	position: relative;
+    left: 10%;
+    top: 0vw
+}
+
+#campo_A{
+    position: relative;
+    left: 64%;
+    top: -17vw;
+    width: 20%;
+}
+
+
+#s2 {
+	position: relative;
+    top: 0vw;
+    height: 25vw
+}
+
+#campo_C {
+	position: relative;
+    top: -13vw;
+    left: 13%;
+    width: 34%
+}
+
+
+#foto_C{
+    position: relative;
+    left: 52%;
+    top: 5vw;
+}
+
+#s3 {
+	position: relative;
+    top: 0vw;
+    height: 25vw;
+}
+
+
+#foto_B{
+	position: relative;
+    left: 10%;
+    top: 5vw
+}
+#campo_B{
+     position: relative;
+    left: 63%;
+    top: -14vw;
+    width: 20%;
+}
+
+#s4 {
+		position: relative;
+    top: 0vw;
+    height: 20vw
+}
+
+#foto_tondino{
+	position: relative;
+    left: 10%;
+    top: 0vw;
+}
+
+
+#tondino{
+	position: relative;
+    left: 64%;
+    top: -19vw;
+    width: 20%;
+}
+
+
+#s5{
+	position: relative;
+    top: 0vw;
+    height: 20vw
+}
+
+#foto_giostra{
+	position: relative;
+    left: 52%;
+    top: 5vw;
+
+}
+
+
+#giostra {
+	position: relative;
+    top: -13vw;
+    left: 13%;
+    width: 34%
+
+}
+
+#box{
+	 position: relative;
+    top: 14vw;
+    height: 21vw;
+}
+
+#desc_generale{
+	font-size: 1.4vw;
+    text-align: center;
+    width: 99%;
+    
+}
+
+#tit{
+	margin: 0vw;
+	text-align: center;
+	font-size: 2vw;
+        font-family: MV Boli;
+
+}

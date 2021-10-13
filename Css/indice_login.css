@@ -1,0 +1,213 @@
+#body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: 100%}
+
+#barranav {
+	background-color: black;
+	position: fixed;
+	left:0;
+	top:0vw;
+	width: 100%;
+	height: 6vw;
+	z-index: 300;
+}
+
+#link {
+	position: absolute;
+	right: 10vw;
+	top:1.9vw;
+	z-index: 301;
+	width: 40%;
+	padding:0;
+}
+
+#link a{
+		text-decoration: none ;
+		font-size:2vw;
+		color:white;
+	}
+
+#link a:hover{
+    color: greenyellow;
+}
+
+#isola2 {
+	position: absolute;
+	top:-1.4vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 11%;
+}
+
+#fise {
+	position: absolute;
+	width: 8vw;
+	top:0vw;
+	left: 3vw;
+	height: 6vw;
+	z-index: 300;
+}
+
+#ferro {
+	position: absolute;
+	left:3vw;
+	
+	width: 8vw;
+	height: 8vw;
+}
+
+#centro_1 {
+	background-color: #bfbfbf;
+	/*background: url(./immagini/carta.png);*/
+	position: absolute;
+	top:5.8vw;
+	height: 123vw;
+	left:10vw;
+	right:10vw;
+	border: none;
+
+}
+
+#benvenuto {
+	font-size: 3.5vw;
+    position: relative;
+    /* left: 30%; */
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+#descrizione_area_login {
+	font-size: 2vw;
+	position: absolute;
+	top:6vw;
+	text-align: center;
+    width: 100%;
+}
+
+
+
+#profilo_img {
+	border-radius: 50%;
+	position:absolute;
+	top:25vw;
+	width: 15%;
+	left: 25%;
+}
+
+#testo_profilo {
+	font-size: 3vw;
+	position: absolute;
+	right: 30%;
+	top:26vw;
+}
+
+#shop_img{
+	position: absolute;
+	top: 40vw;
+	right: 32%;
+	width: 15%;
+}
+
+#testo_shop {
+	font-size: 3vw;
+	position: absolute;
+	left: 25%;
+	top:40vw;
+}
+
+#training_img {
+	position: absolute;
+	top: 55vw;
+	left:25%;
+	width: 15%;
+
+}
+
+#testo_training {
+	font-size: 3vw;
+	position: absolute;
+	right: 30%;
+	top:55vw;
+
+}
+
+#wallet_img {
+
+	position: absolute;
+	top: 72vw;
+	right: 32%;
+	width: 15%;
+
+}
+
+#testo_pay {
+	font-size: 3vw;
+	position: absolute;
+	left: 25%;
+	top:73vw;
+
+}
+
+#testo_logout{
+	text-align: center;
+    font-size: 2vw;
+    top: 80vw;
+    position: relative;
+    /* left: 11%; */
+}
+
+#bottone_logout{
+	border: none;
+    color: white;
+    padding: 1vw 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: black;
+    width: 30%;
+    left: 36%;
+    top: 82vw;
+    position: relative;
+    /* text-align: center; */
+    border-radius: 0%;
+}
+
+#bottone_logout:hover {
+	background-color: red;
+	color: white;
+}
+
+.testi_serv{
+    font-family: Comic Sans MS;
+}
+
+
+
+#fondo {
+	position: absolute;
+	background-color:#802b00;
+	top:125vw;
+	height: 7.1vw;
+	width: 100%;
+	z-index: 100;
+	left: 0vw;
+}
+
+#isola_footer {
+	position: absolute;
+	top:-0.9vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 2vw;
+}
+
+#copyright {
+	position: absolute;
+	top:1.4vw;
+	font-size: 1.2vw;
+	color: white;
+	left: 40%;
+}
+
+

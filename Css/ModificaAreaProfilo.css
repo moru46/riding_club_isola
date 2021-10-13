@@ -1,0 +1,242 @@
+#body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: 90%}
+
+#barranav {
+	background-color: black;
+	position: fixed;
+	left:0;
+	top:0vw;
+	width: 100%;
+	height: 6vw;
+	z-index: 300;
+}
+
+#link {
+	position: absolute;
+	right: 10vw;
+	top:1.9vw;
+	z-index: 301;
+	width: 40%;
+	padding:0 ;
+}
+
+#link a{
+		text-decoration: none ;
+		font-size:2vw;
+		color:white;
+	}
+
+#link a:hover{
+    color: greenyellow;
+}
+#isola2 {
+	position: absolute;
+	top:-1.4vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 11%;
+}
+
+#fise {
+	position: absolute;
+	width: 8vw;
+	top:0vw;
+	left: 3vw;
+	height: 6vw;
+	z-index: 300;
+}
+
+
+
+#centro_1 {
+	background-color: #bfbfbf;
+	/*background: url(./immagini/carta.png);*/
+	position: absolute;
+	top:5.8vw;
+	height: 82vw;
+	left:10vw;
+	right:10vw;
+	border: none;
+
+}
+
+
+
+#fondo {
+	position: absolute;
+	background-color:#802b00;
+	top:86vw;
+	height: 7.1vw;
+	width: 100%;
+	z-index: 100;
+	left: 0vw;
+}
+
+#isola_footer {
+	position: absolute;
+	top:-0.9vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 2vw;
+}
+
+#copyright {
+	position: absolute;
+	top:1.4vw;
+	font-size: 1.2vw;
+	color: white;
+	left: 40%;
+}
+
+
+
+
+#avatar{
+	border-radius: 100%;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 5vw;
+}
+
+#username {
+	position: relative;
+    top: 22vw;
+    font-size: 3vw;
+    color: red;
+    /* left: 44%; */
+    margin: 0;
+    text-align: center;
+}
+
+#modifica_profilo {
+position: absolute;
+width: 50%;
+top: 25vw;
+left: 25%;
+height: 40vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 1vw;
+  margin: 1vw 0 2vw 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.label {
+	font-size: 2vw;
+}
+
+#valori_precedenti {
+	position: absolute;
+	border: 2px solid red;
+	right: 0%;
+	top: 25vw;
+	width: 45%;
+	height: 40vw;
+}
+
+
+#patente_pre {
+	font-size: 2vw;
+	position: absolute;
+	left:2%;
+	top:1.5vw;
+}
+
+#passaporto_pre {
+	font-size: 2vw;
+	position: absolute;
+	left:2%;
+	top:10vw;
+
+}
+
+#numeropatente_pre{
+	font-size: 2vw;
+	position: absolute;
+	left:2%;
+	top:26.5vw;
+
+}
+
+#cavallo_pre {
+	font-size: 2vw;
+	position: absolute;
+	left:2%;
+	top:18.3vw;
+}
+
+
+.errori_reg{
+	color: red;
+    font-size: 1.5vw;
+    /* position: absolute; */
+    /* left: 22%; */
+    position: relative;
+    text-align: center;
+}
+
+/*
+#patenteErr {
+	top:19.5%;
+	left:20%;
+}
+
+#numero_patenteErr {
+	left: 30%;
+	top:26.2%;
+}
+
+#cavalloErr{
+	left: 22%;
+	top:33%;
+
+}
+
+#passaportoErr {
+	left: 36%;
+	top:39.8%;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottone_modifica{
+	border: none;
+	color: white;
+  padding: 1vw 1vw;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: green;
+  width: 50%;
+  margin-left: 25%;
+
+}
+
+#bottone_modifica:hover {
+	background-color: red;
+	color: black;
+}

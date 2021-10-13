@@ -1,0 +1,265 @@
+#body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: auto;}
+
+#barranav {
+	background-color: black;
+	position: fixed;
+	left:0;
+	top:0vw;
+	width: 100%;
+	height: 6vw;
+	z-index: 300;
+}
+
+#link {
+	position: absolute;
+	right: 10vw;
+	top:1.5vw;
+	z-index: 301;
+	width: 40%;
+	padding:0;
+}
+
+#link a{
+		text-decoration: none ;
+		font-size:2vw;
+		color:white;
+	}
+
+#link a:hover{
+    color: greenyellow;
+}
+
+#isola2 {
+	position: absolute;
+	top:-1.4vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 11%;
+}
+
+#fise {
+	position: absolute;
+	width: 8vw;
+	top:0vw;
+	left: 3vw;
+	height: 6vw;
+	z-index: 300;
+}
+
+#centro_1 {
+	background-color: #bfbfbf;
+	/*background: url(./immagini/carta.png);*/
+	position: absolute;
+	top:5.8vw;
+	left:10vw;
+	right:10vw;
+	border: none;
+	min-height: 40vw
+
+}
+
+@-moz-document url-prefix() {
+ #centro_1 {
+	background-color: #bfbfbf;
+	/*background: url(./immagini/carta.png);*/
+	position: absolute;
+	top:5.8vw;
+	left:10vw;
+	right:10vw;
+	border: none;
+	min-height: 40.5vw
+
+}
+}
+
+
+
+/*---*/
+
+#div_vuoto{
+    position: relative;
+}
+
+
+
+
+#titolo_riepilogo {
+	position: relative;
+	top:0vw;
+	text-align: center;
+}
+
+#p_vuoto{
+	position: relative;
+	text-align: center;
+	font-size: 2vw;
+
+}
+
+#img_vuoto {
+	position: relative;
+    width: 22%;
+    height: 44%;
+    left: 38%;
+    /*top:14vw;*/
+}
+
+#a_vuoto {
+	position: relative;
+    font-size: 2.5vw;
+    text-decoration: none;
+    color: green;
+    text-align: center;
+}
+
+#a_vuoto a{
+        text-decoration: none;
+        color: red;
+    	font-family: Segoe Print;
+}
+
+.sezione {
+    position: relative;
+    height: 13vw;
+
+}
+
+
+.img {
+	width: 10vw;
+    height: 11vw;
+    position: relative;
+    left: 6.5vw;
+    top: 3vw;
+}
+
+.testo{
+position: absolute;
+
+top: 13%;
+
+left: 22%;
+
+height: 100%;
+
+width: 70.5%
+}
+
+.testo h2{
+position: relative;
+    left: 19%;
+    top: -11%;
+    width: 44%;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.testo .descrizione{
+    width: 60%;
+    left:4%;
+    position: absolute;
+    top:41%;
+    font-size: 1.2vw;
+}
+
+.pensione{
+	position: relative;
+    top: -12%;
+    left: 4%;
+}
+
+.paddock{
+	position: absolute;
+    top: 67%;
+    left: 4%;}
+
+.giostra{
+   	position: absolute;
+    top: 48%;
+    left: 4%;
+   }
+.veterinario{
+	position: absolute;
+    top: 29%;
+    left: 4%;
+}
+
+.maniscalco{
+	    position: absolute;
+    left: 40%;
+    top: 12%;
+}
+
+.istruttore{
+	position: absolute;
+    top: 29%;
+    left: 40%;
+}
+
+.mensile{
+	    position: absolute;
+    left: 40%;
+    top: 47%;
+}
+
+.costo{
+	    position: absolute;
+    top: 68%;
+    left: 40%;
+}
+
+.pagato{
+	position: absolute;
+    left: 67%;
+    top: 38%;
+}
+
+
+.prenota{
+	position: absolute;
+    top: 45%;
+    left: 85%;
+}
+
+
+
+
+
+
+
+
+.form_rimuovi{
+    position: absolute;
+    right: 7%;
+    top: 44%;
+    height: 0vw;
+
+
+}
+
+.bottone_rimuovi{
+color: red;
+
+border: none;
+
+background-color: white;
+
+cursor: pointer;
+
+font-size: 1.3vw;
+}
+
+
+#ritorno {
+    position: relative;
+    text-align: center;
+}
+
+#ritorno a{
+    text-decoration: none;
+    color:green;
+    font-size: 1.5vw;
+}

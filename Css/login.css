@@ -1,0 +1,294 @@
+#body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: auto;}
+
+#barranav {
+	background-color: black;
+	position: fixed;
+	left:0;
+	top:0vw;
+	width: 100%;
+	height: 6vw;
+	z-index: 300;
+}
+
+#link {
+	position: absolute;
+	right: 10vw;
+	top:1.9vw;
+	z-index: 301;
+	width: 40%;
+	padding:0;
+}
+
+#link a{
+		text-decoration: none ;
+		font-size:2vw;
+		color:white;
+	}
+
+#link a:hover{
+    color: greenyellow;
+}
+
+#isola2 {
+	position: absolute;
+	top:-1.4vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 11%;
+}
+
+#fise {
+	position: absolute;
+	width: 8vw;
+	top:0vw;
+	left: 3vw;
+	height: 6vw;
+	z-index: 300;
+}
+
+
+
+#div_registrazione_login {
+	width: 100%;
+	position:absolute;
+	
+	height: 60vw;
+
+
+} 
+
+#registrati_ora {
+	position: relative;
+    text-align: center;
+    font-size: 3vw;
+    /* left: 20%; */
+    top: -1vw;
+}
+
+#accedi{
+	position: relative;
+    text-align: center;
+    font-size: 3vw;
+    top: -2vw;
+
+}
+
+#registrazione {
+	position: relative;
+    width: 50%;
+    top: 5vw;
+    /* margin-left: 0.5vw; */
+    text-align: center;
+    left: 24%;
+	
+}
+
+.label_reg {
+	font-size: 2vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 1vw;
+  margin: 1vw 0 2vw 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#bottone_reg{
+	border: none;
+	color: white;
+  padding: 1vw 1vw;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: green;
+  width: 50%;
+  margin-left: 25%;
+
+}
+
+#bottone_reg:hover {
+	background-color: red;
+	color: black;
+}
+
+#div_login {
+    display: none;
+    position: relative;
+    width: 30%;
+    top: 5vw;
+    text-align: center;
+    left: 34%;
+}
+
+#bottone_log {
+    border: none;
+    color: white;
+  padding: 1vw 1vw;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: darkred;
+  width: 50%;
+  margin-left: 25%;
+    text-align: center;
+    position: relative;
+    left: 0vw;
+    margin: 0;
+
+}
+
+
+#bottone_log:hover {
+	background-color: red;
+	color: black;
+}
+
+.errori_reg{
+	color: red;
+	font-size: 1.5vw;
+	position: absolute;
+}
+
+#nomeErr {
+	top: 3.8vw;
+   /* left: 58%;*/
+}
+
+#cognomeErr {
+	top:12.1vw;
+	/*left:14%;*/
+}
+
+#usernameErr {
+	top:20.5vw;
+	/*left: 13%;*/
+}
+
+#emailErr {
+	top: 28.8vw;
+/*	left:9%;*/
+}
+
+#pswErr {
+	top:37.3vw;
+/*	left:14%;*/
+}
+
+#psw_repeatErr {
+	top:45.8vw;
+	/*left:20%;*/
+}
+
+#errore_log{
+	top:11vw;
+}
+
+
+#registrato {
+	position: absolute;
+    font-size: 1.5vw;
+    top: 2vw;
+    /* right: 7%; */
+    color: #b30000;
+    /* text-align: center; */
+    left: 11%;
+
+}
+
+#termini{
+	left: 11%;
+    position: relative;
+}
+
+#div_button{
+    text-align: center;
+    right: 10%;
+    position: relative;
+}
+
+#apri_log{
+    position: absolute;
+    top: 2vw;
+    right: 5vw;
+    border: none;
+    color: white;
+    padding: 1vw 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: darkslategrey;
+    border-radius: 50%;
+}
+
+#apri_reg{
+    position: absolute;
+    top: 2vw;
+    left: 5vw;
+    border: none;
+    color: white;
+    padding: 1vw 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: darkslategrey;
+    /* width: 50%; */
+    /* margin-left: 25%; */
+    border-radius: 50%;
+}
+
+#apri_reg:hover{
+    background-color: darkgoldenrod;
+}
+
+#apri_log:hover{
+    background-color: darkgoldenrod;
+}
+
+#centro_1 {
+	background-color: #bfbfbf;
+	position: absolute;
+	top:5.8vw;
+	height: 88vw;
+	left:10vw;
+	right:10vw;
+	border: none;
+
+}
+
+
+
+
+#fondo {
+	position: absolute;
+	background-color: #802b00;
+	top:88vw;
+	height: 6.8vw;
+	width: 100%;
+	z-index: 100;
+	left: 0;
+}
+
+
+
+#isola_footer {
+	position: absolute;
+	top:-1.5vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 2vw;
+}
+
+#copyright {
+	position: absolute;
+	top:1.4vw;
+	font-size: 1.2vw;
+	color: white;
+	left: 40%;
+}

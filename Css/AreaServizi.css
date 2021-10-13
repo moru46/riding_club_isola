@@ -1,0 +1,436 @@
+#titolo{
+	position: relative;
+    top: 2vw;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: Segoe Print;
+}
+
+
+#form{
+	     position: relative;
+    top: 5vw;
+    height: 147vw;
+
+
+}
+
+.titolo_sec{
+	    position: relative;
+    left: 10%;
+    width: 83%;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.bandiera{
+	width: 30%;
+	height: 12%;
+	position: relative;
+	top:3%;
+	left: 15%;
+}
+
+
+#label_it{
+	position: absolute;
+    right: 22%;
+    top: 39%;
+    font-size: 3vw;
+
+}
+
+#label_usa{
+	    position: absolute;
+    right: 22%;
+    top: 35%;
+    font-size: 3vw;
+}
+
+#label_uk{
+	 position: relative;
+    left: 33%;
+    top: -11vw;
+    font-size: 3vw;
+
+}
+
+
+@-moz-document url-prefix() {
+
+	#label_it{
+	position: absolute;
+    right: 22%;
+    top: 45%;
+    font-size: 3vw;
+
+	}
+}
+
+@-moz-document url-prefix() {
+
+	#label_usa{
+	position: absolute;
+    right: 22%;
+    top: 50%;
+    font-size: 3vw;
+	}
+}
+
+@-moz-document url-prefix() {
+
+	#label_uk{
+	position: relative;
+    left: 33%;
+    top: -12vw;
+    font-size: 3vw;
+
+	}
+}
+
+
+
+#it{
+	position: relative;
+}
+
+#usa_div{
+	position: relative;
+}
+
+#extra{
+	position: relative;
+	top:3vw;
+	height: 18%;
+}
+
+
+#div_paddock{
+	width: 15%;
+    height: 13vw;
+    position: absolute;
+    left: 9%;
+    top:6.1vw;
+}
+
+#label_paddock{
+    font-size: 2vw;
+
+}
+
+
+
+#div_giostra{
+	width: 15%;
+    height: 13vw;
+    position: absolute;
+    left: 33%;
+    top: 6.1vw;
+
+}
+
+#label_giostra{
+    font-size: 2vw;
+    
+}
+
+#div_maniscalco{
+	width: 15%;
+    height: 13vw;
+    position: absolute;
+    left: 54%;
+    top: 6.1vw
+}
+
+#label_maniscalco{
+    font-size: 2vw;
+    
+}
+
+
+
+ #div_veterinario{
+
+ 	    width: 15%;
+    height: 13vw;
+    position: absolute;
+    left: 74%;
+    top: 6.1vw;
+ }
+
+ #label_veterinario{
+    font-size: 2vw;
+    
+}
+
+
+
+
+#istruttori{
+	position: relative;
+	top:2vw;
+	height: 20%
+}
+
+
+
+ #div_giulia{
+ 	    position: absolute;
+    width: 24%;
+    left: 7%;
+    font-size: 1.8vw;
+    top:6vw;
+ }
+
+
+ #div_ilaria{
+ 	    position: absolute;
+    width: 24%;
+    left: 40%;
+    font-size: 1.8vw;
+    top:6vw;
+ }
+
+ #div_barbara{
+ 	    position: absolute;
+    width: 24%;
+    left: 71%;
+    font-size: 1.8vw;
+    top:6vw;
+ }
+
+.select{
+	width: 47%;
+    height: 10%;
+    border-width: 3px;
+}
+
+
+#tipo_corso{
+	height: 0%;
+    top: -8vw;
+    position: relative;
+    left: 39%;
+
+}
+
+#tipo_corso label{
+	position: relative;
+    height: 10%;
+    font-size: 1.7vw;
+}
+
+#tipo_corso select{
+	height: 2vw;
+    width: 18%;
+}
+
+#bottone{
+	position: relative;
+    border: none;
+    top: -1vw;
+    color: white;
+    padding: 1vw 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+    background-color: green;
+    width: 22%;
+    margin-left: 62%;
+
+
+}
+
+#bottone:hover {
+	background-color: red;
+	color: black;
+}
+
+
+#mese{
+	width: 38%;
+    margin-left: 10%;
+    position: relative;
+    top: -1vw;
+}
+
+#mese label{
+	font-size: 1.5vw;
+}
+
+#mese input{
+	position: absolute;
+    top: 3vw;
+    left: 27%;
+    width: 45%;
+}
+
+#label_mese{
+	position: absolute;
+    top: 21vw;
+    /* text-align: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    font-size: 1.6vw;
+    left: 34%;
+}
+
+#tipologia{
+	font-size: 1.4vw;
+    width: 31%;
+}
+
+
+
+#prenotato{
+	position: relative;
+    top: 0%;
+    left: 64%;
+    font-size: 2vw;
+    width: 21%;
+}
+
+#meseErr {
+	position: relative;
+    top: 0%;
+    left: 54%;
+    font-size: 2vw;
+    width: 44%;
+}
+
+
+/*MODAL*/
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 300;
+    padding-top: 0vw;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+       background-color: rgb(0,0,0);
+     background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal_content {
+  background-color: #fefefe;
+  margin: 6% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+
+.chiudi{
+    font-size: 3vw;
+    color: red;
+    cursor: pointer;
+}
+
+
+ #body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: 100%}
+
+#barranav {
+	background-color: black;
+	position: fixed;
+	left:0;
+	top:0vw;
+	width: 100%;
+	height: 6vw;
+	z-index: 300;
+}
+
+#link {
+	position: absolute;
+	right: 10vw;
+	top:1.9vw;
+	z-index: 301;
+	width: 40%;
+	padding:0;
+}
+
+#link a{
+		text-decoration: none ;
+		font-size:2vw;
+		color:white;
+	}
+
+#link a:hover{
+    color: greenyellow;
+}
+
+#isola2 {
+	position: absolute;
+	top:-1.4vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 11%;
+}
+
+#fise {
+	position: absolute;
+	width: 8vw;
+	top:0vw;
+	left: 3vw;
+	height: 6vw;
+	z-index: 300;
+}
+
+#ferro {
+	position: absolute;
+	left:3vw;
+	
+	width: 8vw;
+	height: 8vw;
+}
+
+#centro_1 {
+	background-color: #bfbfbf;
+	/*background: url(./immagini/carta.png);*/
+	position: absolute;
+	top:5.8vw;
+	height: 170vw;
+	left:10vw;
+	right:10vw;
+	border: none;
+
+}
+
+
+
+#fondo {
+	position: absolute;
+	background-color:#802b00;
+	top:170vw;
+	height: 7.1vw;
+	width: 100%;
+	z-index: 100;
+	left: 0vw;
+}
+
+#isola_footer {
+	position: absolute;
+	top:-0.9vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 2vw;
+}
+
+#copyright {
+position: absolute;
+top: 1.9vw;
+font-size: 1.2vw;
+color: white;
+left: 40%;
+}
+
+

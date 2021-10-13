@@ -1,0 +1,403 @@
+#body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: 40%;}
+
+@-moz-document url-prefix() {
+ #body {/*background: url(./immagini/carta2.png)*/
+	background-color: #006600;
+margin: auto;}
+}
+
+
+
+#barranav {
+	background-color: black;
+	position: fixed;
+	left:0;
+	top:0vw;
+	width: 100%;
+	height: 6vw;
+	z-index: 300;
+}
+
+#link {
+	position: absolute;
+	right: 10vw;
+	top:0;
+	z-index: 301;
+	width: 40%;
+	padding:0;
+}
+
+#link a{
+		text-decoration: none ;
+		font-size:2vw;
+		color:white;
+	}
+
+#link a:hover{
+    color: greenyellow;
+}
+
+#log{text-decoration: none ;
+        font-size:2vw;
+        color:white;}
+
+#link p{
+	text-decoration: none;
+    font-size: 2vw;
+    color: white;
+    cursor: pointer;
+}
+
+#isola2 {
+	position: absolute;
+	top:-1.4vw;
+	font-size: 3vw;
+	font-family: Kunstler Script;
+	color: white;
+	left: 11%;
+}
+
+#fise {
+	position: absolute;
+	width: 8vw;
+	top:0vw;
+	left: 3vw;
+	height: 6vw;
+	z-index: 300;
+}
+
+#centro_1 {
+	background-color: #bfbfbf;
+	/*background: url(./immagini/carta.png);*/
+	position: absolute;
+	top:5.8vw;
+	min-height: 100%;
+	left:10vw;
+	right:10vw;
+	border: none;
+
+}
+
+#benvenuto{
+    position: relative;
+    text-align: center;
+    font-size: 4vw;
+    top:2vw;
+}
+
+#descrizione_area_login {
+    font-size: 2vw;
+    position: relative;
+    top:4vw;
+    text-align: center;
+}
+
+
+
+
+
+#money{
+	position: relative;
+    height: 10vw;
+    top: 8vw;
+    left: 54vw;
+        cursor: pointer;
+
+}
+
+#training{
+	    position: relative;
+    height: 10vw;
+     top: 8vw;
+    left: 13vw;
+    cursor: pointer;
+}
+
+#user{
+	position: relative;
+    height: 10vw;
+     top: 8vw;
+    left: 4vw;
+        cursor: pointer;
+
+
+}
+
+/* MODAL SOLDI */
+
+
+
+
+.sezione {
+    position: relative;
+    height: 8vw;
+
+}
+
+
+.img_soldi {
+   width: 100%;
+    /* height: 1vw; */
+    position: relative;
+    left: 6.5vw;
+    top: 0vw;
+}
+
+.img_soldi img{
+    width: 7vw;
+    height: 7vw;
+}
+
+.testo_soldi{
+position: absolute;
+top: 13%;
+left: 22%;
+height: 100%;
+width: 70.5%
+}
+
+.img_soldi h2{
+position: absolute;
+    left: 19%;
+    top: 0vw;
+    width: 44%;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.pagato{
+   position: absolute;
+    top: 2vw;
+    width: 9%;
+    right: 21vw;
+    font-size: 1.2vw;
+}
+
+#attesa{
+    position: absolute;
+    right: 12vw;
+    width: 25%;
+    top: 0vw;
+    font-size: 1.2vw;
+}
+
+.cancella{
+    position: relative;
+    width: 7%;
+    left: 45vw;
+    margin: 0%;
+    top: 0vw;
+}
+
+.cancella input{
+        width: 6vw;
+    height: 1.6vw;
+}
+
+.conferma{
+  position: relative;
+    width: 7%;
+    left: 42vw;
+    margin: 0%;
+    top: 0vw;
+}
+
+.conferma input{
+        width: 6vw;
+    height: 1.6vw;
+}
+ /*-----*/
+
+/*MODAL ALLENAMENTO*/
+
+
+#div_vuoto{
+    position: relative;
+}
+
+#titolo_riepilogo {
+	position: relative;
+	top:0vw;
+	text-align: center;
+}
+
+#p_vuoto{
+	    position: relative;
+    text-align: center;
+    font-size: 3vw;
+    color: red;
+    top: -1vw;
+    left: 1%;
+
+}
+
+#img_vuoto {
+	position: relative;
+    width: 18%;
+    height: 28%;
+    left: 42%;
+    top:-1vw;
+}
+
+#a_vuoto {
+	position: relative;
+    font-size: 2vw;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+
+#a_vuoto a{
+        text-decoration: none;
+        color: yellow;
+
+}
+
+.sezione_allenamento {
+    position: relative;
+
+}
+
+
+.img_training img{
+width: 6vw;
+height: 6vw;
+position: relative;
+left: 9.5vw;
+}
+
+.testo_training{
+position: absolute;
+top: -10%;
+left: 22%;
+height: 100%;
+width: 70.5%
+}
+
+.testo_training h2{
+position: relative;
+left: 4%;
+width: 44%;
+font-size: 1.5vw;
+font-weight: bold;
+}
+
+.testo_training .descrizione{
+    width: 60%;
+    left:4%;
+    position: absolute;
+    top:41%;
+    font-size: 1.2vw;
+}
+
+.form_rimuovi{
+    position: absolute;
+    right: 7%;
+    top: 44%;
+    height: 0vw;
+
+
+}
+
+.bottone_rimuovi{
+color: red;
+border: none;
+background-color: white;
+cursor: pointer;
+font-size: 1.3vw;
+position: relative;
+left: 65%;
+}
+
+
+
+/*USER*/
+
+#modal_user{
+    background-color: #fefefe;
+    margin: 6% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 49%;
+}
+
+.sezione_profili{
+    margin-left: auto;
+    margin-right: auto;
+    top: 1vw;
+    width: 18vw;
+    position: relative;
+}
+
+.img_profili{
+     height: 6vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6vw;
+}
+
+#rimuovi{
+    color: red;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1.3vw;
+    position: relative;
+    left: -1%;
+}
+
+.testo_user{
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+/*----*/
+
+
+/*-----*/
+
+
+/* FINE*/
+
+/*MODAL*/
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 300;
+    padding-top: 0vw;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+       background-color: rgb(0,0,0);
+     background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal_content {
+  background-color: #fefefe;
+  margin: 6% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+
+
+.chiudi{
+    font-size: 3vw;
+    color: red;
+    cursor: pointer;
+}
+
+/*FINE MODAL*/
