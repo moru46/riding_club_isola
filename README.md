@@ -1,3 +1,3 @@
 # riding_club_isola
 
-Project based on developing a website for my riding club in Pisa. 
+Web project using Js, Php, Html5, Css
